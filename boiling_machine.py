@@ -12,18 +12,19 @@ while True:
 tea = 100
 coffee = 90
 
-option_user = input("Select your optional target temperature\n1.Tea\n2.Coffee\n3.Manual Setting\n(1/2/3): ").strip()
 
 while True:
-    
+
+    option_user = input("Select your target temperature\n1.Tea\n2.Coffee\n3.Manual Setting\n(1/2/3): ").strip()
+
     if option_user == "1":
         target_tem = tea
-        print("You're selecting Tea")
+        print("You're selecting Tea (100°C)")
         break
 
     elif option_user == "2":
         target_tem = coffee
-        print("You're selecting Coffee")
+        print("You're selecting Coffee (90°C)")
         break
 
     elif option_user == "3":
@@ -34,12 +35,13 @@ while True:
                 break
             except ValueError:
                 print("Use a integer")
+                continue
         break
             
     else:
         print("The option has only 1/2/3")
         
-        
+        continue
 
 
 while water_temp < target_tem:

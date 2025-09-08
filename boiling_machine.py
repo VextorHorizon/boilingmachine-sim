@@ -6,7 +6,7 @@ while True:
         water_temp = int(input("Water temperature: "))
         break
     except ValueError:
-        print("Use a integer")
+        print("Use an integer")
         continue
 
 tea = 100
@@ -34,7 +34,7 @@ while True:
                 print(f"The target temperature is {target_tem}")
                 break
             except ValueError:
-                print("Use a integer")
+                print("Use an integer")
                 continue
         break
             
@@ -55,4 +55,5 @@ if water_temp > 200:
     print("\n--------------------\nThe boiling machine is at risk\n--------------------\n")
 elif water_temp > target_tem:
     print("\n--------------------\nWater is boiling now\n--------------------\n")
+
 

@@ -1,4 +1,4 @@
-# boilingmachine-sim-
+# boilingmachine-sim
 a boiling machine that use basic python <br>
 also this project is about day2-4 of my learning a python language <br>
 ## Feature

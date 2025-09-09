@@ -1,5 +1,5 @@
 # boilingmachine-sim
-this project is no longer developing
+**this project is no longer developing** <br>
 a boiling machine that use basic python <br>
 also this project is about day2-4 of my learning a python language <br>
 ## Feature
